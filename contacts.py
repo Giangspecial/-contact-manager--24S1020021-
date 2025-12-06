@@ -10,3 +10,4 @@ def add_contact():
     phone = input("Nhập số điện thoại: ")
     phonebook.append({'name': name, 'phone': phone})
     print("Đã thêm liên hệ.")
+    main()
